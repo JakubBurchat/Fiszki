@@ -1,0 +1,101 @@
+body {
+    user-select: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #b1e2ee; /* Jasnoszare tło */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#word {
+    float: left;
+    width: 35vw;
+    height: 18vh;
+    margin-top: 8vh;
+    margin-left: 32.5vw;
+    background-color: #e74c3c; /* Czerwony */
+    border-style: solid;
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 3.5vw;
+    color: #fff; /* Biały tekst */
+    border-radius: 10px;
+}
+
+#description {
+    width: 45vw;
+    height: 12vh;
+    margin-top: 2vh;
+    margin-left: 27.5vw;
+    background-color: #f7f381; /* Czerwony */
+    color: #f7f381;
+    border-style: solid;
+    border-color: #fff;
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 1.5vw;
+    border-radius: 10px;
+}
+
+.answear {
+    width: 30vw;
+    height: 10vh;
+    margin-top: 5vh;
+    margin-left: 17.5vw;
+    background-color: #3498db; /* Czerwony */
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 3vw;
+    color: #fff;
+    border-radius: 10px;    
+}
+.answear:hover {
+    background-color: #2980b9;
+}
+
+#next {
+    display: none;
+    position: absolute;
+    float: left;
+    width: 10vw;
+    height: 12.5vh;
+    margin-top: 40vh;
+    margin-left: 88vw;
+    padding-top: 2.5vh;
+    background-color: #3498db; /* Jasnoniebieski */
+    text-align: center;
+    font-size: 2vw;
+    color: #fff; /* Biały tekst */
+    border-style: solid;
+    border-radius: 10px; /* Zaokrąglenie krawędzi */
+    box-shadow: 0 9px #999; /* Cień pod przyciskiem */
+}
+
+#next:hover {
+    cursor: pointer;
+    background-color: #2980b9; /* Ciemniejszy odcień niebieskiego po najechaniu */
+}
+
+#next:active {
+    background-color: #115786;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#score {
+    position: absolute;
+    float: left;
+    width: 15vw;
+    height: 12.5vh;
+    margin-top: 11vh;
+    margin-left: 70.5vw;
+    padding-top: 2.5vh;
+    background-color: #3498db; /* Jasnoniebieski */
+    text-align: center;
+    font-size: 2vw;
+    color: #fff; /* Biały tekst */
+    border-style: solid;
+    border-radius: 10px; /* Zaokrąglenie krawędzi */
+}

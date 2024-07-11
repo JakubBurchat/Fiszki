@@ -1,0 +1,82 @@
+body {
+    user-select: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #b1e2ee; /* Szaro-niebieskie tło */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#change_word1, #change_word2 {
+    float: left;
+    width: 12vw;
+    height: 12.5vh;
+    margin-top: 28vh;
+    margin-left: 3vw;
+    background-color: #3498db; /* Jasnoniebieski */
+    border-style: solid;
+    text-align: center;
+    padding-top: 2.5vh;
+    font-size: 2vw;
+    color: #fff; /* Biały tekst */
+    margin-right: 10px; /* Dodatkowy odstęp między przyciskami */
+    border-radius: 10px; /* Zaokrąglenie krawędzi */
+    box-shadow: 0 9px #999; /* Cień pod przyciskiem */
+}
+
+#change_word1:hover, #change_word2:hover {
+    cursor: pointer;
+    background-color: #2980b9; /* Ciemniejszy odcień niebieskiego po najechaniu */
+}
+
+#change_word1:active, #change_word2:active {
+    background-color: #115786;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#word {
+    float: left;
+    width: 32vw;
+    height: 20vh;
+    margin-top: 26vh;
+    margin-left: 19.0vw;
+    background-color: #e74c3c; /* Czerwony */
+    border-style: solid;
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 3.5vw;
+    color: #fff;
+    border-radius: 15px; /* Zaokrąglenie krawędzi */
+}
+
+#word:hover {
+    cursor: pointer;
+    background-color: #c0392b; /* Ciemniejszy odcień czerwonego po najechaniu */
+}
+
+#change_word2 {
+    margin-left: 15vw;
+}
+
+#description {
+    width: 35vw;
+    height: 17vh;
+    margin-top: 2vh;
+    margin-left: 32.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: #f7f381; /* Zielony */
+    color: #f7f381;
+    border-color: #dad770; /* Ciemniejszy odcień zielonego */
+    border-style: solid;
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 1.5vw;
+    border-radius: 10px; /* Zaokrąglenie krawędzi */    
+}
+
+#description:hover {
+    cursor: pointer;
+    background-color: #f7f381; /* Ciemniejszy odcień zielonego po najechaniu */
+}

@@ -1,0 +1,49 @@
+body {
+    user-select: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #b1e2ee; /* Jasnoszare tło */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#word {
+    width: 35vw;
+    height: 14vh;
+    margin-top: 20vh;
+    margin-left: 32.5vw;
+    background-color: #e74c3c;
+    border-style: solid;
+    border-color: #fff;
+    text-align: center;
+    padding-top: 6vh;
+    font-size: 3.5vw;
+    border-radius: 10px;
+}
+
+#Accept {
+    width: 10vw;
+    height: 7.2vh;
+    margin-top: 5vh;
+    margin-left: 45vw;
+    padding-top: 0.8vh;
+    background-color: #3498db; /* Jasnoniebieski */
+    text-align: center;
+    font-size: 1.5vw;
+    color: #fff; /* Biały tekst */
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 10px; /* Zaokrąglenie krawędzi */
+    box-shadow: 0 9px #999; /* Cień pod przyciskiem */
+}
+
+#Accept:hover {
+    cursor: pointer;
+    background-color: #2980b9; /* Ciemniejszy odcień niebieskiego po najechaniu */
+}
+
+#Accept:active {
+    background-color: #115786;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

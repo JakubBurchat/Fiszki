@@ -1,0 +1,36 @@
+body {
+    user-select: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #b1e2ee; /* Szaro-niebieskie tło */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.mode {
+    float: left;
+    width: 20vw;
+    height: 15vh;
+    margin-top: 26vh;
+    margin-left: 20vw;
+    background-color: #e74c3c; /* Czerwony */
+    border-style: solid;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 3.5vw;
+    color: #fff; /* Biały tekst */
+    border-radius: 10px;
+    box-shadow: 0 9px #999; /* Cień pod przyciskiem */
+}
+
+.mode:hover {
+    cursor: pointer;
+    background-color: #c0392b; /* Ciemniejszy odcień czerwonego po najechaniu */
+    transition: background-color 0.5s ease;
+}
+
+.mode:active{
+    background-color: #7c170c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

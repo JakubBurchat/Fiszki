@@ -1,0 +1,24 @@
+body {
+    user-select: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #b1e2ee;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#score {
+    float: left;
+    width: 30vw;
+    height: 15vh;
+    margin-top: 26vh;
+    margin-left: 35vw;
+    background-color: #e74c3c;
+    border-style: solid;
+    color:white;
+    border-color: white;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 4vw;
+    border-radius: 10px;
+}

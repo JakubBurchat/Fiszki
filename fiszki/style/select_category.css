@@ -1,0 +1,42 @@
+body {
+    user-select: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #b1e2ee;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+label {
+    font-size: 1.2vw;
+    margin-right: 10px;
+}
+
+select {
+    padding: 8px;
+    font-size: 1.2vw;
+}
+
+button {
+    padding: 8px;
+    font-size: 1.2vw;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    background-color: #115685;
+}

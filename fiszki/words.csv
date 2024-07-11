@@ -1,0 +1,20 @@
+eksploracja danych;data mining;4;Data mining is the process of finding anomalies, patterns and correlations within large data sets to predict outcomes.
+identyfikacja wzorca;pattern identification;4;Pattern identification is the process of finding recurring trends in data set.
+modelowanie ilościowe;quantitative modelling;4;Quantitative modelling involves using mathematical equations and formulas to represent patterns in data sets.
+etykieta klasy;class label;4;"A class label assigns a specific category to a data point, such as ""male"" or ""female""."
+przynależność do klasy;class membership;4;Class membership refers to the inclusion of a data point in a specific group within a data set.
+zmienna objaśniająca;explanatory variable;4;An explanatory variable is a factor that is believed to influence the outcome of a data analysis
+zmienna;variable;4;Variables are factors that can change or influence the results of a data analysis.
+odporny na błędy;fault-tolerant;4;Fault-tolerant systems are designed to continue functioning despite encountering errors or faults in the data
+fałszywy wzorzec;spurious pattern;4;Spurious patterns refer to misleading trends or correlations in data that are not causally related.
+wartość skrajna;outlier;4;Outliers are data points that lie outside of the normal range and may disrupt data analysis.
+węzeł wyjściowy;burst node;4;Burst nodes indicate a sudden increase in activity or trend in a specific area of a data set.
+węzeł losowy;chance node;4;Chance nodes represent uncertain outcomes or probabilities in decision tree models.
+węzeł decyzyjny;decision node;4;Decision nodes are points in a decision tree where a choice must be made between different paths based on specific criteria.
+węzeł końcowy;end node;4;End nodes mark the final result or conclusion in a decision tree analysis.
+liść / węzeł liścia;leaf node;4;Leaf nodes refer to the final, most detailed level of categories in a decision tree.
+przycinanie sieci;network pruning;4;Network pruning is the process of removing unnecessary or incorrect connections within a data network to improve its efficiency.
+węzeł zbiorczy;sink node;4;Sink nodes collect incoming data from multiple sources and pass it on to other nodes in a data network.
+analiza różnicowa;differential analysis;4;Differential analysis involves comparing two or more data sets to identify differences or similarities.
+zbiór produktów;itemset;4;Itemsets refer to groups of items or variables that are often analyzed together.
+reszta (w analizie regresji);residual;4;Residuals are the differences between the expected and observed values in a data set after performing a statistical model.

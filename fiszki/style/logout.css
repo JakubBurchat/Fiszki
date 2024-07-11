@@ -1,0 +1,22 @@
+body {
+    user-select: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #b1e2ee; /* Jasnoszare tło */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#word {
+    width: 30vw;
+    height: 14vh;
+    margin-top: 26vh;
+    margin-left: 35vw;
+    background-color: #e74c3c;
+    border-style: solid;
+    border-color: #fff;
+    text-align: center;
+    padding-top: 6vh;
+    font-size: 3.5vw;
+    border-radius: 10px;
+}

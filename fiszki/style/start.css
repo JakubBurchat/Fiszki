@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b1e2ee;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 70vw;
+    margin: 0 auto;
+    padding: 1vw;
+}
+p {
+    margin-left: 2vw;
+    font-size: 110%;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+h2 {
+    margin-left: 1vw;
+    color: #004085;
+}
+ul {
+    margin-left: 1vw;
+    font-size: 105%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
